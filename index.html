@@ -1,128 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipe Alura Start</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Saúde Mental</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            background-color: #ffebee; /* Rosa claro */
+        }
+        
+        .nav-img {
+            width: 100px;
+            height: auto;
+        }
+        
+        .inicio-fundo {
+            background-color: #6a1b9a;
+            padding: 3rem;
+            border-radius: 15px;
+        }
+        
+        .secao-tropicalia {
+            background-color: #f3e5f5;
+            border-radius: 15px;
+            padding: 2rem;
+        }
+        
+        .fundo-galeria {
+            background-color: #f3e5f5;
+            border-radius: 15px;
+        }
+        
+        .formulario {
+            background-color: #f3e5f5;
+            padding: 2rem;
+        }
+        
+        .botao-inicio {
+            background-color: #9c27b0;
+            border: none;
+        }
+        
+        .botao-inicio:hover {
+            background-color: #7b1fa2;
+        }
+        
+        .tamanho-botao {
+            padding: 0.5rem 1.5rem;
+        }
+    </style>
 </head>
 
 <body>
-    <header class="cabecalho">
-        <img class="cabecalho-imagem" src="alurastart logo.png" alt="logo da alura start">
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item"><a href="#escola">Eron Domingues</a></li>
-            <li class="cabecalho-lista-item"><a href="#estudante">Kimberly Diedrich e Vitória Raqueli</a></li>
-        </ul>
+    <header class="p-5">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/mental-health-logo.jpg" alt="Logotipo de Saúde Mental" class="nav-img" loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>          
+        </nav>
     </header>
-    <section id="escola">
-        <div class="escola-div-conteudo">
-            <h2 class="escola-titulo">A escola é uma instituição fundamental na formação de individuos e na construção de sociedades.É um local de crescimento pessoal, onde os alunos descobrem seus interesses, talentos e potencial.</h2>
-            <p class="escola-texto-um"></p>
-            <p class="escola-texto-dois"></p>
-        </div>
-        <img class="escola-imagem" src="escola.webp" alt="imagem que representa uma professora em sala de aula">
-    </section>
 
-    <section id="estudante">
-        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
-        <div class="estudante-todos">
-            <span></span>
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-                <h3 class="estudante-nome">Marcelo</h3>
-                <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png"
-                        alt="icone github"></a>
-                <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png"
-                        alt="icone linkedin"></a>
-                <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png"
-                        alt="icone instagram"></a>
+    <main class="container my-5">
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas ao</h1>
+                    <img src="https://payhip.com/cdn-cgi/image/format=auto/https://pe56d.s3.amazonaws.com/o_1gspomc9i1oca8781tscgii813.png" alt="" class="mb-3" width="563"
+                        height="278" loading="lazy">
+                    <a href="#importancia"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
             </div>
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="Gabi.jpg" alt="foto da gabi">
-                <h3 class="estudante-nome">Gabriela</h3>
-                <a href="https://github.com/GabrielaM-L"><img class="estudante-icone" src="github.png"
-                        alt="icone github"></a>
-                <a href="https://www.linkedin.com/in/gabriela-marcomini-de-lima/"><img class="estudante-icone"
-                        src="linkedin.png" alt="icone linkedin"></a>
-                <a href="https://www.instagram.com/gabriela_marcomini/"><img class="estudante-icone" src="instagram.png"
-                        alt="icone instagram"></a>
-            </div>
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="Liz.jpg" alt="foto da lizandra">
-                <h3 class="estudante-nome">Lizandra</h3>
-                <a href="https://github.com/LizandraDuarte40"><img class="estudante-icone" src="github.png"
-                        alt="icone github"></a>
-                <a href="https://www.linkedin.com/in/lizandrarlm-duarte/"><img class="estudante-icone"
-                        src="linkedin.png" alt="icone linkedin"></a>
-                <a href="https://www.instagram.com/lizandrarlm"><img class="estudante-icone" src="instagram.png"
-                        alt="icone instagram"></a>
-            </div>
-            <span></span>
-            <span></span>
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="Joice.jpg" alt="foto da joice">
-                <h3 class="estudante-nome">Joice</h3>
-                <a href="https://github.com/JoiceAlura"><img class="estudante-icone" src="github.png"
-                        alt="icone github"></a>
-                <a href="https://www.linkedin.com/in/joicebarbaresco/"><img class="estudante-icone" src="linkedin.png"
-                        alt="icone linkedin"></a>
-                <a href="https://www.instagram.com/joicebarbaresco/"><img class="estudante-icone" src="instagram.png"
-                        alt="icone instagram"></a>
-            </div>
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="Maria.jpg" alt="foto da maria">
-                <h3 class="estudante-nome">Maria</h3>
-                <a href="https://github.com/MagePSR"><img class="estudante-icone" src="github.png"
-                        alt="icone github"></a>
-                <a href="https://www.linkedin.com/in/mariageovanna"><img class="estudante-icone" src="linkedin.png"
-                        alt="icone linkedin"></a>
-                <a href="https://www.instagram.com/magpsr/"><img class="estudante-icone" src="instagram.png"
-                        alt="icone instagram"></a>
-            </div>
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="Olivia.jpg" alt="foto da olhe">
-                <h3 class="estudante-nome">Olivia</h3>
-                <img class="estudante-icone" src="github.png" alt="icone github">
-                <a href="https://www.linkedin.com/in/olhe/"><img class="estudante-icone" src="linkedin.png"
-                        alt="icone linkedin"></a>
-                <a href="https://github.com/olhe12"><img class="estudante-icone" src="instagram.png"
-                        alt="icone instagram"></a>
-            </div>
-            <span></span>
-            <span></span>
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="Rafa.jpg" alt="foto da rafa">
-                <h3 class="estudante-nome">Rafaela</h3>
-                <a href="https://github.com/rafaelamunhoz12"><img class="estudante-icone" src="github.png"
-                        alt="icone github"></a>
-                <a href="http://linkedin.com/in/rafaela-felix-munhoz-oliveira-02160a10a"><img class="estudante-icone"
-                        src="linkedin.png" alt="icone linkedin"></a>
-                <a href="https://www.instagram.com/rafafmo/"><img class="estudante-icone" src="instagram.png"
-                        alt="icone instagram"></a>
-            </div>
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="Thais.jpg" alt="foto da thais">
-                <h3 class="estudante-nome">Thais</h3>
-                <a href="https://github.com/Thaispianucci"><img class="estudante-icone" src="github.png"
-                        alt="icone github"></a>
-                <a href="https://www.linkedin.com/in/thais-pianucci-benedicto-54a9a416/"><img class="estudante-icone"
-                        src="linkedin.png" alt="icone linkedin"></a>
-                <a href="https://www.instagram.com/thaispianucci/"><img class="estudante-icone" src="instagram.png"
-                        alt="icone instagram"></a>
-            </div>
+        </section>
 
-        </div>
-    </section>
-    
-    <footer class="rodape">
-        <img class="rodape-imagem" src="alurastart logo.png" alt="logo da alura start">
+        <section id="importancia" class="my-5 pt-6 secao-tropicalia">
+            <div class="container d-flex align-items-center">
+                  <div class="col-5">
+                    <h2>O que é Saúde Mental?</h2>
+                    <p class="p-2">A saúde mental é um estado de bem-estar no qual o indivíduo percebe suas próprias habilidades, consegue lidar com as tensões normais da vida, trabalhar de forma produtiva e contribuir para sua comunidade. Não se trata apenas da ausência de doenças mentais, mas de um equilíbrio emocional, psicológico e social.</p>
+                    
+                    <h2> A Importância da Saúde Mental</h2>
+                    <p>Cuidar da saúde mental é tão importante quanto cuidar da saúde física. Uma mente saudável nos permite enfrentar desafios, construir relacionamentos significativos, tomar decisões e aproveitar a vida. Infelizmente, ainda existe muito estigma em torno das questões mentais, o que impede muitas pessoas de buscar ajuda quando necessário.</p>
+                    
+                    <h3> Fatores que influenciam a saúde mental</h3>
+                    <ul>
+                        <li>Fatores biológicos (genética, química cerebral)</li>
+                        <li>Experiências de vida (traumas, abusos)</li>
+                        <li>Histórico familiar de problemas mentais</li>
+                        <li>Estilo de vida (dieta, exercícios, sono)</li>
+                        <li>Fatores sociais e econômicos</li>
+                    </ul>
+                    
+                    <h3> Sinais de alerta</h3>
+                    <p>Alguns sinais que podem indicar problemas de saúde mental incluem:</p>
+                    <ul>
+                        <li>Mudanças extremas de humor</li>
+                        <li>Sentimentos de tristeza ou irritabilidade persistentes</li>
+                        <li>Dificuldade de concentração</li>
+                        <li>Alterações no apetite ou padrões de sono</li>
+                        <li>Isolamento social</li>
+                        <li>Pensamentos sobre morte ou suicídio</li>
+                    </ul>
+                
+                    <h3> Como cuidar da saúde mental</h3>
+                    <p>Algumas estratégias para manter a saúde mental em dia:</p>
+                    <ul>
+                        <li>Pratique exercícios físicos regularmente</li>
+                        <li>Mantenha uma alimentação balanceada</li>
+                        <li>Durma bem (7-9 horas por noite)</li>
+                        <li>Desenvolva hobbies e atividades prazerosas</li>
+                        <li>Conecte-se com outras pessoas</li>
+                        <li>Aprenda técnicas de relaxamento e mindfulness</li>
+                        <li>Busque ajuda profissional quando necessário</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/meditacao.webp" class="img-fluid rounded-5" loading="lazy" alt="Pessoa meditando">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/therapy.jpg" class="img-fluid rounded-5" loading="lazy" alt="Sessão de terapia">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/self-care.jpg" class="img-fluid rounded-5" loading="lazy" alt="Cuidados pessoais">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
